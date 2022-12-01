@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+</head>
+<body>
+
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="event1">eventone</p>
+    <div id="event2">event2</div>
+    <p id="date">Date goes here</p>
+    <button onload=" document.getElementById('event1').innerHTML = 'Hello' ">Click here</button>
+    <button onclick="Sum()">click here</button>
+    <button onclick="showdate()">click</button>
+    <script>
+        // array
+        var cars=["Toyota","BMW","Texi"];
+        document.getElementById("demo").innerHTML=cars[0];
+
+        // object
+        var person = {
+            firstName:"Rafi",
+            lastName:"Rahman",
+            subject:"Computer",
+            Institute:"DPI",
+            name:function(){
+                return this.firstName + " " + this.lastName;
+            }
+        };
+        document.getElementById("demo2").innerHTML = person.Institute;
+        document.getElementById("demo3").innerHTML = person.name();
+
+        // event
+        function Sum()
+        {
+            var x = 10;
+            var y = 20;
+            var z = x + y;
+            document.getElementById("event2").innerHTML = z;
+        }
+
+        // Date
+    
+       
+        function showdate(){
+            document.getElementById("date").innerHTML = new Date();
+        }
+       
+    </script>
+</body>
+</html>
