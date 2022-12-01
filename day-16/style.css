@@ -1,0 +1,88 @@
+.topbar{
+    background-color: #9E5BBA;
+    padding:0px 10px;
+    height: 30px;
+}
+.left_p{
+    line-height: 30px;
+}
+.topbar_right{
+    float: right;
+    line-height: 30px;
+}
+.topbar_right div{
+    display: inline-block;
+     float: left;  
+}
+
+.topbar_right p{
+    display: inline-block;
+   float: left;
+   border-right: 1px solid #fff;
+   padding-right: 5px;
+   margin-right: 5px;
+}
+.topbar_right div a{
+    color: white;
+    text-decoration: none;
+}
+
+/* header */
+.logo{
+    height: 110px;
+}
+.logo_left{
+    line-height: 110px;
+}
+.logo_search{
+    padding-top: 45px;
+}
+.logo_search input{
+    width: 70%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px;
+}
+.logo_search button{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 7px;
+    font-weight: bold;
+}
+.logo_1{
+    border-right: 1px solid #ddd;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+.logo_right{
+    padding-top: 30px;
+}
+/* menubar */
+.menu1{
+    background-color: #efefef;
+}
+.menu1 ul li a{
+    font-size:16px !important;
+    border-right: 1px solid #ddd;
+
+}
+.menu1 ul li a:hover{
+    background-color: #9E5BBA;
+}
+/* start:hero part */
+/* banner */
+.banner{
+    border: 2px solid red;
+    padding: 8px;
+}
+.banner img{
+    width: 960px;
+    height: 220px;
+}
+/*sidebar*/
+.side1 img{
+    margin-bottom: 5px;
+}
+/* end:hero part */
